@@ -35,7 +35,7 @@
     color: #FF5400;
 }
 
-
+/* header style */
 .header{
     width: 1170px;
     height: 500px;
@@ -44,14 +44,6 @@
     background-size: cover;
     margin: 0px auto;
 }
-/* .header-opaciti-div{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: -1;
-    border-radius: 17px;
-} */
 
 .header-title{
     text-align: center;
@@ -72,7 +64,7 @@
 
 .header_area_section-1{
     display: flex;
-    background-color: #ffffff66;
+    background-color: #ffffff4c;
     padding: 16px;
     gap: 24px;
     margin-top: 48px;
@@ -81,6 +73,19 @@
     width: 800px;
     height: auto;
 }
+
+.button-2{
+    width: 176px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
 select{
     width: 176px;
     height: 50px;
@@ -88,10 +93,10 @@ select{
     background-color: #fff;
     border: none;
     color: rgba(19, 19, 24, 0.50);
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
     margin-left: 20px;
+    padding-left: 5px;
 }
 .button-1{
     width: 174px;
@@ -99,7 +104,6 @@ select{
     border-radius: 8px;
     background-color: #FF5400;
     margin-left: 24px;
-    text-align: center;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -107,7 +111,7 @@ select{
 }
 
 
-
+/* main section-1 style */
 .main_section-1{
     display: flex;
     padding: 20px;
@@ -367,6 +371,59 @@ select{
     padding: 10px;
 }
 
+.my-image-section{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    background-image: url(Images/my\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.my_section{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(233, 68, 68, 0.05);
+    margin: 60px auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+}
+
+.my-sectio-title-box{
+    padding: 20px;
+}
+
+.my-name{
+    font-size: 50px;
+    font-weight: 800px;
+    padding-left: 20px;
+}
+
+.my-discrbshon{
+    color: #5A5A5D;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 44px;
+}
+
+.my-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
 /* input section style */
 .input-box{
     width: 474px;
@@ -446,6 +503,34 @@ input {
     padding: 10px;
 }
 
+.image-section-kat{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 250px;
+    margin-left: 50%;
+    transform: rotate(-19.628deg);
+}
+
+.kat-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.kat-title-two{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    }
+
+
 /* footer area style */
 .footer-area{
     width: 100%;
@@ -483,6 +568,13 @@ i{
     margin: 30px;
 }
 
+a{
+    color: #131318;
+    font-size: 30px;
+}
+
+
+
 .hr-line-2{
     width: 872px;
     height: 2px;
@@ -495,4 +587,387 @@ i{
     font-size: 16px;
     font-weight: 300;
     text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* rasponsib style */
+
+/* header section responsib */
+@media screen and (max-width:600px) {
+    .header{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 10px;
+    }
+
+/* header title rasponsib */
+.header-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 24px;
+    color: black;
+}
+
+/* header discrbshon rasponsib */
+.header-discribshon{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+
+/* header-area-section-1-rasponsib */
+    .header_area_section-1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 50px;
+        width: 230px;
+        margin-bottom: 50px;
+    }
+
+/* select items rasponsib */
+    select{
+        width: 230px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+/* button one rasponsib */
+.button-1{
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+
+/* button two rasponsib */
+.button-2{
+    width: 230px;
+    margin-left: 5px;
+}
+
+/* main section rasponsib */
+.main-section{
+    width: 100%;
+    height: auto;
+    border: 2px solid aqua;
+}
+}
+
+/* main-section-1 rasponsib */
+    @media screen and (max-width:600px) {
+        .main_section-1{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 20px;
+            gap: 20px;
+        }
+/* main sectio title respobsib */
+    .main_section_title{
+        font-size: 25px;
+        font-weight: 800;
+        padding-bottom: 15px;
+    }
+/* main section descrbshon respobsib */
+.main_section_discrbshon-1{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+/* main section ul rasponsib */
+.main_section_ul-1{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/* main section1 li rasponsib */
+.main_section_ul-1 li{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* mainsection 1 discrbshon */
+.main_section_discrbshon-2{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+/* main_section_button-2 */
+.main_section_button-2{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+    .main-section1-image1{
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .choose-box{
+        width: 100%;
+        margin: 20px auto ;
+        text-align: center;
+    } 
+
+    .choose-box-title{
+        font-size: 22px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+
+    .choose-box-describshon{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .image_section{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .image-section-1{
+        width: 100%;
+    }
+    .image-section-2{
+        width: 100%;
+    }
+
+    /* image section two */
+    .image_section-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-top: 10px;
+    }
+
+    .image_section-2_image-1{
+        width: 100%;
+    }
+    .image_section-2_image-2{
+        width: 100%;
+    }
+    .image_section-2_image-3{
+        width: 100%;
+    }
+
+    /* image siction 3 */
+    .image_section-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-top: 10px;
+    }
+
+    .image_section-3_image-1{
+        width: 100%;
+    }
+
+    .image_section-3_image-2{
+        width: 100%;
+    }
+
+    .kat-container{
+        width: 100%;
+        text-align: center;
+        margin: 90px auto;
+    }
+
+    .kat-container-title{
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .kat_container-discrbshon{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+
+    /* main section to */
+    .main_section-2{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .main_section_2_box-1{
+        width: 80%;
+        height: auto;
+    }
+
+    .main_section-2_discrbshon-1{
+        width: 80%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+
+    .main_section-2_box-2{
+        width: 80%;
+        padding: 36px;
+        height: auto;
+    }
+
+    .main-section_box-3{
+        width: 80%;
+        height: auto;
+    }
+
+    /* my section */
+    .my_section{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .my-sectio-title-box{
+        padding: 0px;
+        width: 270px;
+    }
+
+    .my-name{
+        font-size: 22px;
+        font-weight: 800px;
+        padding-left: 5px;
+    }
+    .my-discrbshon{
+        font-size: 20px;
+        padding-left: 7px;
+        padding-top: 20px;
+        line-height: 24px;
+    }
+
+    .my-image-section{
+        width: 100%;
+        height: 300px;
+    }
+
+    /* input section */
+    .input-and-image-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 10px;
+    }
+    
+    .input-box{
+        width: 100%;
+    }
+
+    .input-title{
+        font-size: 30px;
+        font-weight: 800;
+        padding-top: 30px;
+        padding-left: 46px;
+    }
+    .input-discribshon{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px; 
+        width: 270px;
+        padding-left: 46px;
+        padding-top: 10px;
+    }
+
+    .hr-line{
+        width: 300px;
+        height: 1px;
+        margin: 10px auto;
+    }
+
+    .form-style{
+        margin-left: 46px;
+    }
+
+    input {
+        width: 240px;
+        height: 45px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 20px;
+        padding-left: 12px;
+    }
+
+    .input-box-button{
+        width: 250px;
+        height: 45px;
+        margin-top: 24px;
+    }
+
+    .input-section-image{
+        width: 100%;
+    }
+
+    .image-section-kat{
+        width: 200px;
+        height: 100px;
+        margin-top: 280px;
+        margin-left: 40%;
+        transform: rotate(-19.628deg);
+    }
+
+    .kat-title-two{
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        }
+
+    .main-section{
+        width: 100%;
+        height: auto;
+        border: 2px solid aqua;
+        margin: 50px auto;
+    }
+    .footer-area{
+        width: 100%;
+        height: 500px;
+    }
+    .footer-image{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .hr-line-2{
+        width: 350px;
+        height: 1px;
+        margin: 20px auto;
+    }
+
+    .footer-lest-text{
+        padding-top: 50px;
+    }
+
 }
