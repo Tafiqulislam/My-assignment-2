@@ -6,7 +6,6 @@
 .main-section{
     max-width: 1170px;
     height: auto;
-    border: 2px solid aqua;
     margin: 50px auto;
 }
 
@@ -110,6 +109,10 @@ select{
     border: none;
 }
 
+.button-1:hover{
+    background-color: #f36e2c;
+    cursor: section4;
+}
 
 /* main section-1 style */
 .main_section-1{
@@ -423,6 +426,59 @@ select{
     margin-left: 20px;
     margin-top: 50px;
 }
+.my-button:hover{
+    background-color: #e07742;
+    cursor: pointer;
+}
+
+.section4{
+    display: flex;
+    gap: 24px;
+}
+.section4-title{
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.section4-descrbshon{
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-bottom: 30px;
+}
+
+.section4-ul-li{
+    padding-left: 20px;
+    width: 518px;
+    color: #131318;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 30px; 
+}
+
+.section4-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400; 
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+
+.section4-button:hover{
+    background-color: #5a2206;
+    cursor: pointer;
+}
 
 /* input section style */
 .input-box{
@@ -486,6 +542,10 @@ input {
     font-weight: 800;
     margin-top: 24px;
 
+}
+
+.input-box-button:hover{
+    background-color: #ac3d05;
 }
 
 .input-section-image{
@@ -665,7 +725,6 @@ a{
 .main-section{
     width: 100%;
     height: auto;
-    border: 2px solid aqua;
 }
 }
 
@@ -713,7 +772,6 @@ a{
     line-height: 24px;
 
 }
-
 
 /* main_section_button-2 */
 .main_section_button-2{
@@ -948,7 +1006,6 @@ a{
     .main-section{
         width: 100%;
         height: auto;
-        border: 2px solid aqua;
         margin: 50px auto;
     }
     .footer-area{
@@ -970,4 +1027,34 @@ a{
         padding-top: 50px;
     }
 
+    .section4{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .section4-title{
+        width: 400px;
+        color: #131318;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .section4-descrbshon{
+        width: 300px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px; 
+    }
+
+    .section4-ul-li{
+        padding-left: 20px;
+        width: 380px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 30px; 
+    }
+    .section-4-image-1{
+        width: 100%;
+    }
 }
